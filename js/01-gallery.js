@@ -27,9 +27,9 @@ function getGalleryItemsMarkup(array) {
     <a class="gallery__link" href=${original}>
         <img
             class="gallery__image"
-            src=${preview}
+            src='${preview}'
             data-source="${original}"
-            alt=${description}
+            alt='${description}'
         />
     </a>
 </div>`;
